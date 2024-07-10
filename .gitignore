@@ -1,0 +1,78 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Output of the go profiler
+*.prof
+
+# Configuration files created by editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Go vendor dependencies
+vendor/
+
+# Dependency directories
+Godeps/
+node_modules/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build directories
+bin/
+pkg/
+out/
+
+# Go environment files
+.env
+
+# Go modules
+go.mod
+go.sum
+
+# IDE specific directories
+/.idea
+/.vscode
+
+# VS Code
+.vscode/
+.history/
+.terraform/
+.terraform.lock.hcl
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build output directories
+/build/
+dist/
+
+# Coverage files
+coverage.txt
+*.cov
+
+# Test binary, result, and coverage files
+*.test
+*.cover
+
+# Avoid committing local dev configuration
+config.yaml
+config.local.yaml
+
+# Ignore custom files
+custom_ignored_files/

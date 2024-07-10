@@ -1,0 +1,273 @@
+[
+    {
+        "Id": "8ca65699c099ec8ae58a1677023f4dae120c4afb28e466c4d408a707a53a08e9",
+        "Created": "2024-07-06T22:51:01.682796177Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "cassandra",
+            "-f"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 435538,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2024-07-09T21:24:56.366644337Z",
+            "FinishedAt": "2024-07-09T21:23:56.331263815Z"
+        },
+        "Image": "sha256:b1c451fc46e28e0479fac56b297d390a915335d7580ebfa09d72295e223174dd",
+        "ResolvConfPath": "/var/lib/docker/containers/8ca65699c099ec8ae58a1677023f4dae120c4afb28e466c4d408a707a53a08e9/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/8ca65699c099ec8ae58a1677023f4dae120c4afb28e466c4d408a707a53a08e9/hostname",
+        "HostsPath": "/var/lib/docker/containers/8ca65699c099ec8ae58a1677023f4dae120c4afb28e466c4d408a707a53a08e9/hosts",
+        "LogPath": "/var/lib/docker/containers/8ca65699c099ec8ae58a1677023f4dae120c4afb28e466c4d408a707a53a08e9/8ca65699c099ec8ae58a1677023f4dae120c4afb28e466c4d408a707a53a08e9-json.log",
+        "Name": "/cassandra-container",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "authentication_default",
+            "PortBindings": {
+                "9042/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9042"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/0349f26ee906e6d15d28145dbf309686fe29a13af80607f04f9b4fc164ea3a0b-init/diff:/var/lib/docker/overlay2/4836632ad32ea9993aba9cc87b339a93e8847d66e75530c4df24470fe54eec53/diff:/var/lib/docker/overlay2/dee28de468beccc90be0fb3146c83aa5ca41f675dcadd0f901a9cfeaf4044a94/diff:/var/lib/docker/overlay2/092da8233c77fe55c3433981c2f978d84d28a4468cd79deccb82ea5fc64779cb/diff:/var/lib/docker/overlay2/ebd68b51270b4bcbe08b5657dcb78eaed870b91b3aaf71b0592e09d97aebd0f1/diff:/var/lib/docker/overlay2/2194d85e4c630b066dbe9df8f6115f514bef1317c14d59d3063e1c8cae8181a9/diff:/var/lib/docker/overlay2/9ea412813c2684efab8c926a2df00a4dcd620635b54ed65094888cb6e8bec973/diff:/var/lib/docker/overlay2/f1ff9ad3f417c36952bfbcefb65f8c1d6a208d9c9d1fa0ab985a25ac69c96076/diff:/var/lib/docker/overlay2/4251bf3eab9518a5430aeca2ca077f04767773f4cc1f16b8dcf4751e0c5d4c42/diff:/var/lib/docker/overlay2/dd26b3937836d200940f224894bcab50109b0040ba59e4d36395e0bf3d018e74/diff:/var/lib/docker/overlay2/fabbb0d5649bb4d907f5c70c783938313e7e582dead782911525fffbac99bb23/diff",
+                "MergedDir": "/var/lib/docker/overlay2/0349f26ee906e6d15d28145dbf309686fe29a13af80607f04f9b4fc164ea3a0b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/0349f26ee906e6d15d28145dbf309686fe29a13af80607f04f9b4fc164ea3a0b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/0349f26ee906e6d15d28145dbf309686fe29a13af80607f04f9b4fc164ea3a0b/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "0c7f14b4a4cdb63ec1e98195e4aae6a7803e032f09a73f5d0b32bc2b24ebc5b3",
+                "Source": "/var/lib/docker/volumes/0c7f14b4a4cdb63ec1e98195e4aae6a7803e032f09a73f5d0b32bc2b24ebc5b3/_data",
+                "Destination": "/var/lib/cassandra",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "8ca65699c099",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "7000/tcp": {},
+                "7001/tcp": {},
+                "7199/tcp": {},
+                "9042/tcp": {},
+                "9160/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "CASSANDRA_PASSWORD=admin",
+                "CASSANDRA_USER=admin",
+                "PATH=/opt/cassandra/bin:/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "JAVA_HOME=/opt/java/openjdk",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "JAVA_VERSION=jdk-11.0.23+9",
+                "GOSU_VERSION=1.17",
+                "CASSANDRA_HOME=/opt/cassandra",
+                "CASSANDRA_CONF=/etc/cassandra",
+                "GPG_KEYS=CEC86BB4A0BA9D0F90397CAEF8358FA2F2833C93 \tC4965EE9E3015D192CCCF2B6F758CE318D77295D \t5AED1BF378E9A19DADE1BCB34BD736A82B5C1B00 \t514A2AD631A57A16DD0047EC749D6EEC0353B12C \tA26E528B271F19B9E5D8E19EA278B781FE4B2BDA \tA4C465FEA0C552561A392A61E91335D77E3E87CB \t9E66CEC6106D578D0B1EB9BFF1000962B7F6840C \tC4009872C59B49561310D966D0062876AF30F054 \tB7842CDAF36E6A3214FAE35D5E85B9AE0B84C041 \t3E9C876907A560ACA00964F363E9BAD215BBF5F0 \tF8B7FD00E05C932991A2CD6150EE103D162C5A55 \t7464AAD9068241C50BA6A26232F35CB2F546D93E \tCEC5C50B9C629EF0F5AB2706650B72EB14CCD622",
+                "CASSANDRA_VERSION=4.1.5",
+                "CASSANDRA_SHA512=9b76bcba188c34de0bec7327adb5d4d571df7ac485788e577974f361422c229df17d90925eff20d97090581c01756bc7a7fc8b8f01f99297c90276240e27ebeb"
+            ],
+            "Cmd": [
+                "cassandra",
+                "-f"
+            ],
+            "Image": "cassandra:latest",
+            "Volumes": {
+                "/var/lib/cassandra": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "5e7c11b47d6121381ce87fe0115ec87c8d5875ebca1c423ffdc6b42a873a2e9e",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:b1c451fc46e28e0479fac56b297d390a915335d7580ebfa09d72295e223174dd",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "authentication",
+                "com.docker.compose.project.config_files": "C:\\Dev\\Go\\AppCompose\\Authentication\\docker-compose.yaml",
+                "com.docker.compose.project.working_dir": "C:\\Dev\\Go\\AppCompose\\Authentication",
+                "com.docker.compose.service": "cassandra",
+                "com.docker.compose.version": "2.27.1",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "f375b1fe2b571a016866ea657cba4c717ed17cdbd4d5cbfa46e90f78a20a166e",
+            "SandboxKey": "/var/run/docker/netns/f375b1fe2b57",
+            "Ports": {
+                "7000/tcp": null,
+                "7001/tcp": null,
+                "7199/tcp": null,
+                "9042/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "9042"
+                    }
+                ],
+                "9160/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "authentication_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "cassandra-container",
+                        "cassandra"
+                    ],
+                    "MacAddress": "02:42:ac:17:00:02",
+                    "NetworkID": "6998b4708fd2fcc11cf291ac2af032cbf06b34f5ab1a47ffc19064145e4c3459",
+                    "EndpointID": "063edfabe0be1830f5931fe3f30b526f129d69bfb72ec3fec74daef8ffd344d0",
+                    "Gateway": "172.23.0.1",
+                    "IPAddress": "172.23.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DriverOpts": null,
+                    "DNSNames": [
+                        "cassandra-container",
+                        "cassandra",
+                        "8ca65699c099"
+                    ]
+                }
+            }
+        }
+    }
+]

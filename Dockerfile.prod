@@ -1,0 +1,30 @@
+FROM golang:1.22 AS build
+
+WORKDIR /app
+
+COPY go.mod go.sum ./
+
+RUN go mod download
+
+COPY . .
+
+WORKDIR /app/cmd/server
+
+RUN GOOS=linux CGO_ENABLED=0 go build -ldflags="-w -s" -o server .
+
+FROM alpine:latest  
+
+WORKDIR /root/
+
+RUN apk update && apk add --no-cache bash
+
+COPY --from=build /app/cmd/server/server .
+
+COPY --from=build /app/cmd/server/.env .
+
+COPY --from=build /app/cmd/server/wait-for-it.sh .
+
+RUN chmod +x ./wait-for-it.sh
+
+CMD ["./wait-for-it.sh", "cassandra:9042", "--", "./wait-for-it.sh", "redis:6379", "--","./server"]
+#CMD ["tail","-f","/dev/null"]
